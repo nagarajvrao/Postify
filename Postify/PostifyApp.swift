@@ -8,10 +8,15 @@
 import SwiftUI
 
 @main
-struct PostifyApp: App {
+struct MyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let networkDispatcher = NetworkDispatcher()
+            let apiClient = APIClient(baseURL: "https://jsonplaceholder.typicode.com", networkDispatcher: networkDispatcher)
+            let postService = PostService(apiClient: apiClient)
+            let viewModel = PostViewModel(postService: postService)
+            
+            PostListView(viewModel: viewModel)
         }
     }
 }

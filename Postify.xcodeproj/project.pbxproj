@@ -8,18 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		67CF1D8B2C018C44001DA769 /* PostifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1D8A2C018C44001DA769 /* PostifyApp.swift */; };
-		67CF1D8D2C018C44001DA769 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1D8C2C018C44001DA769 /* ContentView.swift */; };
 		67CF1D8F2C018C44001DA769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67CF1D8E2C018C44001DA769 /* Assets.xcassets */; };
 		67CF1D932C018C44001DA769 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67CF1D922C018C44001DA769 /* Preview Assets.xcassets */; };
+		67CF1D9E2C018CA3001DA769 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1D992C018CA3001DA769 /* Logger.swift */; };
+		67CF1D9F2C018CA3001DA769 /* Dispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1D9A2C018CA3001DA769 /* Dispatcher.swift */; };
+		67CF1DA02C018CA3001DA769 /* NetworkEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1D9B2C018CA3001DA769 /* NetworkEnums.swift */; };
+		67CF1DA12C018CA3001DA769 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1D9C2C018CA3001DA769 /* Request.swift */; };
+		67CF1DA22C018CA3001DA769 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1D9D2C018CA3001DA769 /* APIClient.swift */; };
+		67CF1DA52C018CE5001DA769 /* PostListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1DA42C018CE5001DA769 /* PostListVM.swift */; };
+		67CF1DA72C018CF4001DA769 /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1DA62C018CF4001DA769 /* PostListView.swift */; };
+		67CF1DA92C018D84001DA769 /* PostListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1DA82C018D84001DA769 /* PostListService.swift */; };
+		67CF1DAB2C018DC1001DA769 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1DAA2C018DC1001DA769 /* Posts.swift */; };
+		67CF1DAD2C01919D001DA769 /* Optional+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1DAC2C01919D001DA769 /* Optional+App.swift */; };
+		67CF1DAF2C019CCF001DA769 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1DAE2C019CCF001DA769 /* PostDetailView.swift */; };
+		67CF1DB52C01A9DD001DA769 /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1DB42C01A9DD001DA769 /* PostRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		67CF1D872C018C44001DA769 /* Postify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Postify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67CF1D8A2C018C44001DA769 /* PostifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostifyApp.swift; sourceTree = "<group>"; };
-		67CF1D8C2C018C44001DA769 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		67CF1D8E2C018C44001DA769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67CF1D902C018C44001DA769 /* Postify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Postify.entitlements; sourceTree = "<group>"; };
 		67CF1D922C018C44001DA769 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67CF1D992C018CA3001DA769 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		67CF1D9A2C018CA3001DA769 /* Dispatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dispatcher.swift; sourceTree = "<group>"; };
+		67CF1D9B2C018CA3001DA769 /* NetworkEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkEnums.swift; sourceTree = "<group>"; };
+		67CF1D9C2C018CA3001DA769 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		67CF1D9D2C018CA3001DA769 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		67CF1DA42C018CE5001DA769 /* PostListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListVM.swift; sourceTree = "<group>"; };
+		67CF1DA62C018CF4001DA769 /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		67CF1DA82C018D84001DA769 /* PostListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListService.swift; sourceTree = "<group>"; };
+		67CF1DAA2C018DC1001DA769 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		67CF1DAC2C01919D001DA769 /* Optional+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+App.swift"; sourceTree = "<group>"; };
+		67CF1DAE2C019CCF001DA769 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		67CF1DB42C01A9DD001DA769 /* PostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +75,12 @@
 			isa = PBXGroup;
 			children = (
 				67CF1D8A2C018C44001DA769 /* PostifyApp.swift */,
-				67CF1D8C2C018C44001DA769 /* ContentView.swift */,
+				67CF1DB32C019D09001DA769 /* PostList */,
+				67CF1DB62C01AAFE001DA769 /* PostDetail */,
+				67CF1DB22C019CEF001DA769 /* Service */,
+				67CF1DB02C019CD8001DA769 /* Model */,
+				67CF1DB12C019CE2001DA769 /* Extension */,
+				67CF1DA32C018CBC001DA769 /* Networking */,
 				67CF1D8E2C018C44001DA769 /* Assets.xcassets */,
 				67CF1D902C018C44001DA769 /* Postify.entitlements */,
 				67CF1D912C018C44001DA769 /* Preview Content */,
@@ -67,6 +94,60 @@
 				67CF1D922C018C44001DA769 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67CF1DA32C018CBC001DA769 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				67CF1D9D2C018CA3001DA769 /* APIClient.swift */,
+				67CF1D9A2C018CA3001DA769 /* Dispatcher.swift */,
+				67CF1D992C018CA3001DA769 /* Logger.swift */,
+				67CF1D9B2C018CA3001DA769 /* NetworkEnums.swift */,
+				67CF1D9C2C018CA3001DA769 /* Request.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		67CF1DB02C019CD8001DA769 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67CF1DAA2C018DC1001DA769 /* Posts.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		67CF1DB12C019CE2001DA769 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				67CF1DAC2C01919D001DA769 /* Optional+App.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		67CF1DB22C019CEF001DA769 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				67CF1DA82C018D84001DA769 /* PostListService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		67CF1DB32C019D09001DA769 /* PostList */ = {
+			isa = PBXGroup;
+			children = (
+				67CF1DA62C018CF4001DA769 /* PostListView.swift */,
+				67CF1DA42C018CE5001DA769 /* PostListVM.swift */,
+				67CF1DB42C01A9DD001DA769 /* PostRow.swift */,
+			);
+			path = PostList;
+			sourceTree = "<group>";
+		};
+		67CF1DB62C01AAFE001DA769 /* PostDetail */ = {
+			isa = PBXGroup;
+			children = (
+				67CF1DAE2C019CCF001DA769 /* PostDetailView.swift */,
+			);
+			path = PostDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +220,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67CF1D8D2C018C44001DA769 /* ContentView.swift in Sources */,
+				67CF1DA52C018CE5001DA769 /* PostListVM.swift in Sources */,
+				67CF1DA02C018CA3001DA769 /* NetworkEnums.swift in Sources */,
+				67CF1DA22C018CA3001DA769 /* APIClient.swift in Sources */,
+				67CF1DAF2C019CCF001DA769 /* PostDetailView.swift in Sources */,
+				67CF1DA12C018CA3001DA769 /* Request.swift in Sources */,
+				67CF1DB52C01A9DD001DA769 /* PostRow.swift in Sources */,
+				67CF1D9E2C018CA3001DA769 /* Logger.swift in Sources */,
+				67CF1DAD2C01919D001DA769 /* Optional+App.swift in Sources */,
+				67CF1DAB2C018DC1001DA769 /* Posts.swift in Sources */,
+				67CF1D9F2C018CA3001DA769 /* Dispatcher.swift in Sources */,
+				67CF1DA72C018CF4001DA769 /* PostListView.swift in Sources */,
 				67CF1D8B2C018C44001DA769 /* PostifyApp.swift in Sources */,
+				67CF1DA92C018D84001DA769 /* PostListService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,10 +374,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nagaraj.Postify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -318,10 +410,10 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nagaraj.Postify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
