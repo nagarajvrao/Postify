@@ -54,7 +54,7 @@ final class PostViewModel: ObservableObject {
         
         let startTime = Date()
         // Simulate intensive computation
-        let result = (1...1000).reduce(0) { $0 + $1 }
+        _ = (1...1000).reduce(0) { $0 + $1 }
         let endTime = Date()
         let computationTime = endTime.timeIntervalSince(startTime)
 
