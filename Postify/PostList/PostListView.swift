@@ -32,15 +32,15 @@ struct PostListView: View {
                             }
                         }
                         if viewModel.isLoading {
-                            ProgressView("Loading more...")
+                            ProgressView(Constants.loadMore)
                                 .padding()
                         }
                     }
                 }
             }
-            .navigationTitle("Posts")
+            .navigationTitle(Constants.posts)
             .alert(isPresented: $showAlert) {
-                Alert(title: Text("Error"), message: Text(errorMessage), dismissButton: .default(Text("OK")) {
+                Alert(title: Text(Constants.error), message: Text(errorMessage), dismissButton: .default(Text(Constants.ok)) {
                     showAlert = false // Dismiss the alert when "OK" is tapped
                 })
             }

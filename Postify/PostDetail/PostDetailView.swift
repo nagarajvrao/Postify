@@ -26,6 +26,6 @@ struct PostDetailView: View {
             Spacer()
         }
         .padding()
-        .navigationBarTitle("Post Details")
+        .navigationBarTitle(Constants.postDetails)
     }
 }

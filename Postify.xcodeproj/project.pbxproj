@@ -22,6 +22,7 @@
 		67CF1DAD2C01919D001DA769 /* Optional+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1DAC2C01919D001DA769 /* Optional+App.swift */; };
 		67CF1DAF2C019CCF001DA769 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1DAE2C019CCF001DA769 /* PostDetailView.swift */; };
 		67CF1DB52C01A9DD001DA769 /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1DB42C01A9DD001DA769 /* PostRow.swift */; };
+		67CF1DB82C02DBCA001DA769 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CF1DB72C02DBCA001DA769 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		67CF1DAC2C01919D001DA769 /* Optional+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+App.swift"; sourceTree = "<group>"; };
 		67CF1DAE2C019CCF001DA769 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 		67CF1DB42C01A9DD001DA769 /* PostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRow.swift; sourceTree = "<group>"; };
+		67CF1DB72C02DBCA001DA769 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				67CF1DAA2C018DC1001DA769 /* Posts.swift */,
+				67CF1DB72C02DBCA001DA769 /* Constants.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				67CF1DAB2C018DC1001DA769 /* Posts.swift in Sources */,
 				67CF1D9F2C018CA3001DA769 /* Dispatcher.swift in Sources */,
 				67CF1DA72C018CF4001DA769 /* PostListView.swift in Sources */,
+				67CF1DB82C02DBCA001DA769 /* Constants.swift in Sources */,
 				67CF1D8B2C018C44001DA769 /* PostifyApp.swift in Sources */,
 				67CF1DA92C018D84001DA769 /* PostListService.swift in Sources */,
 			);

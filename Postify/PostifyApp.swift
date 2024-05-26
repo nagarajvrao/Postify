@@ -12,7 +12,7 @@ struct MyApp: App {
     var body: some Scene {
         WindowGroup {
             let networkDispatcher = NetworkDispatcher()
-            let apiClient = APIClient(baseURL: "https://jsonplaceholder.typicode.com", networkDispatcher: networkDispatcher)
+            let apiClient = APIClient(baseURL: Constants.baseURL, networkDispatcher: networkDispatcher)
             let postService = PostService(apiClient: apiClient)
             let viewModel = PostViewModel(postService: postService)
             

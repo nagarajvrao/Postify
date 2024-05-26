@@ -26,7 +26,7 @@ struct PostRow: View {
                         .multilineTextAlignment(.leading)
                 }
                 
-                Image(systemName: "chevron.right")
+                Image(systemName: Icon.chevronRight)
                     .foregroundColor(.gray)
             }
         }
