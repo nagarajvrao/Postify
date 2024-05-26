@@ -30,7 +30,7 @@ An iOS application built with SwiftUI to display a list of posts. The app fetche
     open Postify.xcodeproj
     ```
 
-3. Build and run the project on the simulator or a physical device.
+3. Build and run the project on the simulator (or a physical device).
 
 ## Usage
 
@@ -47,14 +47,11 @@ The app follows the MVVM (Model-View-ViewModel) architecture pattern. It uses Co
 
 - **APIClient**: Handles network requests and data fetching.
 - **PostService**: Provides functions to fetch posts and handle pagination.
-- **PostViewModel**: Manages the state and business logic for the post list and detail views.
+- **PostVM**: Manages the state and business logic for the post list and detail views.
 - **PostListView**: The main view displaying the list of posts.
 - **PostDetailView**: The view displaying detailed information about a selected post.
 - **PostRow**: A custom view representing a single post in the list.
 
-## Contributing
-
-Contributions are welcome! Please fork this repository and submit pull requests for any features, bug fixes, or enhancements.
 
 ## License
 
