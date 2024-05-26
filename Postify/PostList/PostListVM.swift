@@ -55,10 +55,11 @@ final class PostViewModel: ObservableObject {
         let startTime = Date()
         // Simulate intensive computation
         let result = (1...1000).reduce(0) { $0 + $1 }
-        computedPost.detailedInfo = Constants.computedValueForPost + "\(post.id ?? 0): \(result)"
         let endTime = Date()
-        
         let computationTime = endTime.timeIntervalSince(startTime)
+
+        computedPost.detailedInfo = Constants.computedValueForPost + "\(post.id ?? 0): \(computationTime)"
+        
         print("Computation for post \(post.id ?? 0) took \(computationTime) seconds")
         
         return computedPost
